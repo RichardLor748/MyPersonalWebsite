@@ -1,0 +1,35 @@
+/* profile picture circled and aligned */
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+
+}
+.image{
+    width:100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #252d25;
+}
+.image img{
+    height: 300px;
+    width:300px;
+    border-radius: 50%;
+    border:10px solid #fff
+}
+
+/* Profile Picture Name */
+.ProfileName {
+    position: absolute;
+    top: 52%;
+    left: 50;
+    justify-content: center;
+    font-size: xx-large;
+    color: black;
+    ;
+    transform: translate(0%, -50%);
+}
+
+/*for dropbox*/
